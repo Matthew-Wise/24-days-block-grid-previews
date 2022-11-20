@@ -1,0 +1,15 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Home>
+@using ContentModels = _Days.Models.Content;
+@{
+	Layout = null;
+}
+<html>
+    <head>
+    <link rel="stylesheet" href="/umbraco/assets/css/umbraco-blockgridlayout.css" />
+    </head>
+    <body>
+
+    @await Html.GetBlockGridHtmlAsync(Model.Grid)
+    </body>
+</html>

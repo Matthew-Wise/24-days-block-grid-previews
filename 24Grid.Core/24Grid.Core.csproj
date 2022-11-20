@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_24Grid.Core</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\24Grid.Models\24Grid.Models.csproj" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="11.0.0-rc4" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="11.0.0-rc4" />
+  </ItemGroup>
+
+</Project>
